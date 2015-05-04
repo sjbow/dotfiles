@@ -11,6 +11,7 @@ unsetopt correct_all
 
 # User configuration
 
+export PATH="$(brew --prefix)/bin:$PATH"
 #export PATH=/Users/waheedel/.rbenv/shims:/Users/waheedel/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 #export JAVA_HOME="$(/usr/libexec/java_home)"
 #eval "$(rbenv init - zsh)"
