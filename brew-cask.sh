@@ -16,7 +16,8 @@ brew cask install rescuetime
 brew cask install iterm2
 brew cask install phpstorm
 brew cask install java
-brew cask insatll android-studio
+#brew cask insatll android-studio
+brew cask install eclipse-ide
 
 # browsers
 brew cask install google-chrome

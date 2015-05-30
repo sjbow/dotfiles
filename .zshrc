@@ -11,21 +11,21 @@ unsetopt correct_all
 
 # User configuration
 
-export PATH="$(brew --prefix)/bin:$PATH"
-#export PATH=/Users/waheedel/.rbenv/shims:/Users/waheedel/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
-#export JAVA_HOME="$(/usr/libexec/java_home)"
-#eval "$(rbenv init - zsh)"
+export PATH="/usr/local/sbin:$PATH"
+export JAVA_HOME="/usr/libexec/java_home -v 1.8"
+eval "$(rbenv init - zsh)"
+export PATH="$HOME/.rbenv/shims:$PATH"
 alias bs='bundle exec rspec'
 alias zs='zeus rspec'
 alias be='bundle exec'
 alias ll='ls -la'
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="mate ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi='/usr/local/Cellar/vim/7.4.712/bin/vim -u "~/.vimrc"'
 alias vim='vi'
-alias pc='muster console production'
-alias rc='rails c'
-alias kapow='touch ~/.pow/restart.txt'
+#alias pc='muster console production'
+#alias rc='rails c'
+#alias kapow='touch ~/.pow/restart.txt'
 #alias int='cd ~/src/intercom'
 #alias ing='cd ~/src/ingress'
 #alias con='ssh ec2-user@console.intercom.io'

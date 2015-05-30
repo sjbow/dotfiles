@@ -45,6 +45,12 @@ cd ~
 #chmod +x phpunit.phar
 #sudo mv phpunit.phar /usr/local/bin/phpunit
 
+echo "Installing Composer"
+brew install composer
+
+echo "Installing Maven"
+brew install maven
+
 #echo "Installing MongoDB"
 #cd /usr/local/Library/Formula
 #git checkout ad159e5 /usr/local/Library/Formula/mongodb.rb
